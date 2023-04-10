@@ -5,9 +5,9 @@ export const dataSourceOptions: DataSourceOptions = {
   type: 'mysql',
   host: 'localhost',
   port: 3306,
-  username: 'bloque10',
-  password: 'bloque10',
-  database: 'db',
+  username: 'root',
+  password: '0000',
+  database: 'creab10',
   entities: [User, Category],
   migrations: ['dist/migrations/*.js'],
 };

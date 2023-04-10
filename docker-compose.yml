@@ -3,11 +3,11 @@ services:
   db:
     image: mysql:5.7
     environment:
-      MYSQL_DATABASE: 'db'
+      MYSQL_DATABASE: 'creab10'
       # So you don't have to use root, but you can if you like
-      MYSQL_USER: 'bloque10'
+      MYSQL_USER: 'root'
       # You can use whatever password you like
-      MYSQL_PASSWORD: 'bloque10'
+      MYSQL_PASSWORD: '0000'
       # Password for root access
       MYSQL_ROOT_PASSWORD: 'password'
     ports:
